@@ -1,0 +1,57 @@
+.main__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 80px);
+  background: #1c2237;
+}
+
+.text__container {
+  color: #fff;
+}
+
+.text__container > span {
+  color: #f00946;
+  margin-left: 4px;
+}
+
+.main__heading,
+.main__p {
+  text-align: center;
+}
+
+.main__heading {
+  font-size: 5rem;
+}
+
+.main__p {
+  font-size: 1.25rem;
+}
+
+.icon__container {
+  text-align: center;
+  margin: 100px 0;
+}
+
+.icon__container > a:nth-child(2) {
+  margin: 0 90px;
+}
+
+@media screen and (max-width: 960px) {
+  .text__container > span {
+    font-size: 0.5rem;
+    margin-left: 3px;
+  }
+
+  .main__heading {
+    font-size: 3rem;
+  }
+
+  .main__p {
+    font-size: 1rem;
+  }
+
+  .icon__container > a:nth-child(2) {
+    margin: 0 50px;
+  }
+}

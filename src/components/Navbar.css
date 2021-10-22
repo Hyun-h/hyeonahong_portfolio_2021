@@ -91,7 +91,7 @@
   .nav-menu {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
     width: 100%;
     height: 90vh;
     position: absolute;
@@ -165,5 +165,10 @@
   .btn-link {
     display: block;
     padding: 2rem;
+  }
+
+  .btn-link > button {
+    width: 100%;
+    padding: 1rem 6rem;
   }
 }
