@@ -1,5 +1,6 @@
 import React from "react";
 import "./Main.css";
+import { Link } from "react-router-dom";
 import { ImMail4, ImGithub } from "react-icons/im";
 import { RiKakaoTalkFill } from "react-icons/ri";
 import { IconContext } from "react-icons/lib";
@@ -15,27 +16,30 @@ function Main() {
             <p className="main__p">Front End developer</p>
           </div>
           <div className="icon__container">
-            <a
-              href="mailto:hyeonahong@gmail.com"
+            <Link
+              className="main-icon-link"
+              to="mailto:hyeonahong@gmail.com"
               target="_blank"
-              rel="noreferrer"
+              aria-label="Mail"
             >
               <ImMail4 />
-            </a>
-            <a
-              href="https://github.com/Hyun-h"
+            </Link>
+            <Link
+              className="main-icon-link"
+              to="https://github.com/Hyun-h"
               target="_blank"
-              rel="noreferrer"
+              aria-label="Github"
             >
               <ImGithub />
-            </a>
-            <a
-              href="https://open.kakao.com/o/sJak5E2c"
+            </Link>
+            <Link
+              className="main-icon-link"
+              to="https://open.kakao.com/o/sJak5E2c"
               target="_blank"
-              rel="noreferrer"
+              aria-label="KakaoTalk"
             >
               <RiKakaoTalkFill />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
