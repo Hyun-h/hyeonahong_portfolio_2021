@@ -1,0 +1,85 @@
+.skill__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 80px);
+  background-color: #1c2237;
+}
+
+.skill_box > h1 {
+  color: #fff;
+  font-family: "NEXON Lv2 Gothic Bold";
+  font-size: 3rem;
+  text-align: center;
+}
+
+.skill_wrapper_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.skill__wrapper {
+  padding: 0 50px;
+  width: 80%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.skill-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  flex-basis: 20%;
+  min-width: 100px;
+  padding: 40px 0;
+}
+
+.skill-img {
+  text-align: center;
+  margin-bottom: 30px;
+  height: 70px;
+}
+
+.skill-img img {
+  height: 100%;
+}
+
+.skill-title {
+  color: #fff;
+  font-size: 1.255rem;
+}
+
+@media screen and (max-width: 960px) {
+  .skill__wrapper {
+    width: 100%;
+  }
+
+  .skill_box > h1 {
+    font-size: 2rem;
+  }
+
+  .skill-title {
+    color: #fff;
+    font-size: 1rem;
+  }
+
+  .skill_wrapper_box {
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .skill-img {
+    margin-bottom: 10px;
+    height: 50px;
+  }
+
+  .skill-items {
+    padding: 20px 0;
+  }
+}

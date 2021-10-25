@@ -49,11 +49,11 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <Link
-                  to="/skills"
+                  to="/skill"
                   className="nav-links"
                   onClick={closeMobleMenu}
                 >
-                  Skills
+                  Skill
                 </Link>
               </li>
               <li className="nav-item">

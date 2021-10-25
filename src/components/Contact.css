@@ -1,0 +1,81 @@
+.contact__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 80px);
+  background-color: #1c2237;
+}
+
+.contact__wrapper {
+  padding: 0 50px;
+}
+
+.contect__text {
+  text-align: center;
+  color: #fff;
+}
+
+.contect__text > h1 {
+  font-family: "NEXON Lv2 Gothic Bold";
+  font-size: 3rem;
+}
+
+.contect__text > p {
+  margin: 20px 0 30px;
+  line-height: 24px;
+  font-size: 1.125rem;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  outline: none;
+  min-width: 500px;
+  padding: 12px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+label {
+  color: #fff;
+}
+
+textarea {
+  height: 200px;
+}
+
+.contect__btn {
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 960px) {
+  .contect__text > h1 {
+    font-size: 2rem;
+  }
+
+  .contect__text > p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contect__btn {
+    transform: scale(0.8);
+  }
+
+  input[type="text"],
+  input[type="email"],
+  select,
+  textarea {
+    min-width: 300px;
+  }
+
+  textarea {
+    height: 100px;
+  }
+}
