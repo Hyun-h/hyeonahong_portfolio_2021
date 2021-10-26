@@ -49,14 +49,14 @@ function Portfolio({
                 </p>
                 <ul className="protfolio__btn">
                   <li>
-                    <a href={goToSite}>
+                    <a href={goToSite} target="_blank" rel="noreferrer">
                       <Button buttonSize="btn--wide" buttonColor="blue">
                         {buttonLabel1}
                       </Button>
                     </a>
                   </li>
                   <li>
-                    <a href={goToGithub}>
+                    <a href={goToGithub} target="_blank" rel="noreferrer">
                       <Button buttonSize="btn--wide" buttonColor="blue">
                         {buttonLabel2}
                       </Button>

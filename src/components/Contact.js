@@ -18,10 +18,12 @@ export const Contact = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          // console.log(result.text);
+          alert(result.text);
         },
         (error) => {
-          console.log(error.text);
+          // console.log(error.text);
+          alert(error.text);
         }
       );
   };
