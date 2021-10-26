@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/hyeonahong_portfolio_2021/static/css/main.11f89bfd.chunk.css",
+    "main.js": "/hyeonahong_portfolio_2021/static/js/main.635d380d.chunk.js",
+    "main.js.map": "/hyeonahong_portfolio_2021/static/js/main.635d380d.chunk.js.map",
+    "runtime-main.js": "/hyeonahong_portfolio_2021/static/js/runtime-main.1a8b5eca.js",
+    "runtime-main.js.map": "/hyeonahong_portfolio_2021/static/js/runtime-main.1a8b5eca.js.map",
+    "static/js/2.4f739694.chunk.js": "/hyeonahong_portfolio_2021/static/js/2.4f739694.chunk.js",
+    "static/js/2.4f739694.chunk.js.map": "/hyeonahong_portfolio_2021/static/js/2.4f739694.chunk.js.map",
+    "index.html": "/hyeonahong_portfolio_2021/index.html",
+    "static/css/main.11f89bfd.chunk.css.map": "/hyeonahong_portfolio_2021/static/css/main.11f89bfd.chunk.css.map",
+    "static/js/2.4f739694.chunk.js.LICENSE.txt": "/hyeonahong_portfolio_2021/static/js/2.4f739694.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a8b5eca.js",
+    "static/js/2.4f739694.chunk.js",
+    "static/css/main.11f89bfd.chunk.css",
+    "static/js/main.635d380d.chunk.js"
+  ]
+}
