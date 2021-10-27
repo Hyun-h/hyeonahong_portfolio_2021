@@ -11,7 +11,7 @@ export const homeObjOne = {
   goToSite: "http://dotdot964.dothome.co.kr/",
   goToGithub: "https://github.com/Hyun-h/acebed",
   imgStart: "start",
-  img: "img/acebed.png",
+  img: "./img/acebed.png",
   alt: "acebed image",
 };
 
@@ -28,7 +28,7 @@ export const homeObjTwo = {
   goToSite: "https://hyun-h.github.io/eoyeomo/",
   goToGithub: "https://github.com/Hyun-h/eoyeomo",
   imgStart: "",
-  img: "img/eoyeomo.png",
+  img: "./img/eoyeomo.png",
   alt: "eoyeomo image",
 };
 
@@ -45,7 +45,7 @@ export const homeObjThree = {
   goToSite: "",
   goToGithub: "https://github.com/Hyun-h/nescafe",
   imgStart: "start",
-  img: "img/nescafe.png",
+  img: "./img/nescafe.png",
   alt: "caricature",
 };
 
@@ -62,6 +62,6 @@ export const homeObjFour = {
   goToSite: "",
   goToGithub: "",
   imgStart: "",
-  img: "img/welcome_forest.png",
+  img: "./img/welcome_forest.png",
   alt: "Credit Card",
 };

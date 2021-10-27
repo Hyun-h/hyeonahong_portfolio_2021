@@ -3,16 +3,16 @@ import "./Skill.css";
 
 function Skill() {
   const skills = [
-    { img: "/skill_img/photoshop.svg", title: "Photoshop" },
-    { img: "/skill_img/illustrator.svg", title: "Illustrator" },
-    { img: "/skill_img/xd.svg", title: "Xd" },
-    { img: "/skill_img/html5.svg", title: "HTML5" },
-    { img: "/skill_img/css3.svg", title: "Css" },
-    { img: "/skill_img/js.svg", title: "Javascript" },
-    { img: "/skill_img/php.png", title: "PHP" },
-    { img: "/skill_img/mysql.png", title: "MySQL" },
-    { img: "/skill_img/react.svg", title: "React" },
-    { img: "/skill_img/vue.png", title: "Vue" },
+    { img: "./skill_img/photoshop.svg", title: "Photoshop" },
+    { img: "./skill_img/illustrator.svg", title: "Illustrator" },
+    { img: "./skill_img/xd.svg", title: "Xd" },
+    { img: "./skill_img/html5.svg", title: "HTML5" },
+    { img: "./skill_img/css3.svg", title: "Css" },
+    { img: "./skill_img/js.svg", title: "Javascript" },
+    { img: "./skill_img/php.png", title: "PHP" },
+    { img: "./skill_img/mysql.png", title: "MySQL" },
+    { img: "./skill_img/react.svg", title: "React" },
+    { img: "./skill_img/vue.png", title: "Vue" },
   ];
 
   const renderSkill = skills.map((skillList) => {

@@ -9,7 +9,7 @@ function About() {
       <div className="about__section">
         <div className="about__wrapper">
           <div className="about__img">
-            <img src="img/profile.jpeg" alt="캐리커쳐" />
+            <img src="./img/profile.jpeg" alt="캐리커쳐" />
           </div>
           <div className="about__text__container">
             <p>
@@ -26,7 +26,7 @@ function About() {
             </p>
           </div>
           <div className="about__btn">
-            <Link to="/file/resume.pdf" target="_blank" download>
+            <Link to="./file/resume.pdf" target="_blank" download>
               <Button buttonSize="btn--wide" buttonColor="blue">
                 더보기
               </Button>
