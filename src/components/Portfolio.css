@@ -141,4 +141,8 @@
   .protfolio__btn > li:first-child {
     margin: 0 0 5px 0;
   }
+
+  .home__portfolio-section {
+    height: auto;
+  }
 }

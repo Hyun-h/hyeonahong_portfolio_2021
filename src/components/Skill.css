@@ -82,4 +82,9 @@
   .skill-items {
     padding: 20px 0;
   }
+
+  .skill__section {
+    height: auto;
+    padding: 100px 0;
+  }
 }
