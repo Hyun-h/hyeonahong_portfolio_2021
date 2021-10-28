@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/hyeonahong_portfolio_2021/static/css/main.9b9c4298.chunk.css",
-    "main.js": "/hyeonahong_portfolio_2021/static/js/main.7a88a2b5.chunk.js",
-    "main.js.map": "/hyeonahong_portfolio_2021/static/js/main.7a88a2b5.chunk.js.map",
+    "main.js": "/hyeonahong_portfolio_2021/static/js/main.25fb5af3.chunk.js",
+    "main.js.map": "/hyeonahong_portfolio_2021/static/js/main.25fb5af3.chunk.js.map",
     "runtime-main.js": "/hyeonahong_portfolio_2021/static/js/runtime-main.1a8b5eca.js",
     "runtime-main.js.map": "/hyeonahong_portfolio_2021/static/js/runtime-main.1a8b5eca.js.map",
     "static/js/2.4f739694.chunk.js": "/hyeonahong_portfolio_2021/static/js/2.4f739694.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.1a8b5eca.js",
     "static/js/2.4f739694.chunk.js",
     "static/css/main.9b9c4298.chunk.css",
-    "static/js/main.7a88a2b5.chunk.js"
+    "static/js/main.25fb5af3.chunk.js"
   ]
 }
