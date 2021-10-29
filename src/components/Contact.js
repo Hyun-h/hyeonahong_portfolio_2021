@@ -19,11 +19,14 @@ export const Contact = () => {
       .then(
         (result) => {
           // console.log(result.text);
-          alert(result.text);
+          alert(
+            "메일이 성공적으로 보내졌습니다. 연락주셔서 감사합니다.",
+            result.text
+          );
         },
         (error) => {
           // console.log(error.text);
-          alert(error.text);
+          alert("다시 한 번 시도해주세요.", error.text);
         }
       );
   };
