@@ -2,17 +2,17 @@ export const homeObjOne = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "#HTML #CSS #jQuery #PHP #MySQL",
-  headline: "에이스침대",
+  topLine: "#React #CSS",
+  headline: "Hyeona's Portfolio",
   description:
-    "HTML 마크업과 CSS 플렉스박스, 제이쿼리에 대해 배웁니다. PHP와 MySQL를 이용해 게시물 작성 페이지와 로그인, 로그아웃 페이지를 제작하였습니다.",
+    "학원 다니면서 혼자 공부 한 리엑트를 이용해 포트폴리오 사이트를 제작하였습니다. 새로 업데이트 된 함수형 컴포넌트와 Hook을 공부하면서 제작하였습니다.",
   buttonLabel1: "사이트",
   buttonLabel2: "깃허브",
-  goToSite: "http://dotdot964.dothome.co.kr/",
-  goToGithub: "https://github.com/Hyun-h/acebed",
+  goToSite: "https://hyun-h.github.io/hyeonahong_portfolio_2021/",
+  goToGithub: "https://github.com/Hyun-h/hyeonahong_portfolio_2021",
   imgStart: "start",
-  img: "./img/acebed.png",
-  alt: "acebed image",
+  img: "./img/portfolio.png",
+  alt: "portfolio main image",
 };
 
 export const homeObjTwo = {
