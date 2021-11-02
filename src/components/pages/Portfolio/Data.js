@@ -2,7 +2,7 @@ export const homeObjOne = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "#React #CSS",
+  topLine: "#React #CSS #Photoshop #Illustrator",
   headline: "Hyeona's Portfolio",
   description:
     "학원 다니면서 혼자 공부 한 리엑트를 이용해 포트폴리오 사이트를 제작하였습니다. 새로 업데이트 된 함수형 컴포넌트와 Hook을 공부하면서 제작하였습니다.",
