@@ -40,7 +40,7 @@ export const homeObjThree = {
   headline: "네스카페 돌체구스토",
   description:
     "네스카페 돌체구스토의 리뉴얼 프로젝트를 진행하였습니다. 이벤트 목록 페이지와 서비스 쪽을 맡아 고객에게 좀 더 직관적으로 서비스 제공을 하는 방법을 생각했습니다. 제일 최근 이벤트로 이동하는 기존 이벤트 페이지를 개선하여 고객이 이벤트 목록을 훑어볼 수 있게 이벤트를 모아볼 수 있는 중간페이지를 추가 하였습니다.",
-  buttonLabel1: "폐쇄",
+  buttonLabel1: "",
   buttonLabel2: "깃허브",
   goToSite: "http://nescafe.dothome.co.kr/event_list.php",
   goToGithub: "https://github.com/Hyun-h/nescafe",

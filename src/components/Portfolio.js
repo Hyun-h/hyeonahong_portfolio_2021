@@ -50,9 +50,13 @@ function Portfolio({
                 <ul className="protfolio__btn">
                   <li>
                     <a href={goToSite} target="_blank" rel="noreferrer">
-                      <Button buttonSize="btn--wide" buttonColor="blue">
-                        {buttonLabel1}
-                      </Button>
+                      {buttonLabel1 === "" ? (
+                        false
+                      ) : (
+                        <Button buttonSize="btn--wide" buttonColor="blue">
+                          {buttonLabel1}
+                        </Button>
+                      )}
                     </a>
                   </li>
                   <li>
