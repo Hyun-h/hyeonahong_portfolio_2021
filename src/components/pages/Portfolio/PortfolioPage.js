@@ -6,9 +6,9 @@ function PortfolioPage() {
   return (
     <>
       <Portfolio {...homeObjOne} />
-      <Portfolio {...homeObjTwo} />
-      <Portfolio {...homeObjThree} />
       <Portfolio {...homeObjFour} />
+      <Portfolio {...homeObjThree} />
+      <Portfolio {...homeObjTwo} />
     </>
   );
 }
