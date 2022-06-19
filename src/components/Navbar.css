@@ -109,6 +109,11 @@
     z-index: 1;
   }
 
+  .nav-menu > .nav_btn {
+    position: absolute;
+    bottom: 0;
+  }
+
   .nav-links {
     text-align: center;
     padding: 2rem;
