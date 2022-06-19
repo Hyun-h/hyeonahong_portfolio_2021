@@ -52,6 +52,7 @@
 .skill-title {
   color: #fff;
   font-size: 1.255rem;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 960px) {

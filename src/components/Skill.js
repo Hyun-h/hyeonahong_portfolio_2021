@@ -9,9 +9,9 @@ function Skill() {
     { img: "./skill_img/html5.svg", title: "HTML5" },
     { img: "./skill_img/css3.svg", title: "Css" },
     { img: "./skill_img/js.svg", title: "Javascript" },
-    { img: "./skill_img/php.png", title: "PHP" },
-    { img: "./skill_img/mysql.png", title: "MySQL" },
     { img: "./skill_img/react.svg", title: "React" },
+    { img: "./skill_img/redux.svg", title: "redux" },
+    { img: "./skill_img/redux-saga.png", title: "redux-saga" },
     { img: "./skill_img/vue.png", title: "Vue" },
   ];
 
