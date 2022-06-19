@@ -33,9 +33,9 @@ export const Contact = () => {
 
   return (
     <section className="contact__section">
-      <article className="contect__wrapper">
-        <div className="contect__text">
-          <h1>Contect</h1>
+      <article className="contact__wrapper">
+        <div className="contact__text">
+          <h1>Contact</h1>
           <p>저에게 메일을 보내실 수 있습니다.</p>
         </div>
         <form ref={form} onSubmit={sendEmail}>
@@ -66,7 +66,7 @@ export const Contact = () => {
             <li>
               <textarea name="message" placeholder="보낼 말을 입력하세요" />
             </li>
-            <li className="contect__btn">
+            <li className="contact__btn">
               <Button
                 buttonSize="btn--wide"
                 buttonColor="blue"

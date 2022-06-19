@@ -10,17 +10,18 @@
   padding: 0 50px;
 }
 
-.contect__text {
+.contact__text {
   text-align: center;
   color: #fff;
 }
 
-.contect__text > h1 {
+.contact__text > h1 {
   font-family: "NEXON Lv2 Gothic Bold";
   font-size: 3rem;
+  text-transform: uppercase;
 }
 
-.contect__text > p {
+.contact__text > p {
   margin: 20px 0 30px;
   line-height: 24px;
   font-size: 1.125rem;
@@ -48,17 +49,17 @@ textarea {
   height: 200px;
 }
 
-.contect__btn {
+.contact__btn {
   margin-top: 20px;
   text-align: center;
 }
 
 @media screen and (max-width: 960px) {
-  .contect__text > h1 {
+  .contact__text > h1 {
     font-size: 2rem;
   }
 
-  .contect__text > p {
+  .contact__text > p {
     font-size: 1rem;
   }
 }
