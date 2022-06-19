@@ -3,6 +3,7 @@ import "./Main.css";
 import { ImMail4, ImGithub } from "react-icons/im";
 import { RiKakaoTalkFill } from "react-icons/ri";
 import { IconContext } from "react-icons/lib";
+import { Link } from "react-router-dom";
 
 function Main() {
   return (
@@ -11,7 +12,9 @@ function Main() {
         <article className="main__wrapper">
           <div className="text__container">
             <span>Hi, I'm</span>
-            <h1 className="main__heading">Hyeona Hong</h1>
+            <Link to="/About">
+              <h1 className="main__heading">Hyeona Hong</h1>
+            </Link>
             <p className="main__p">Front End developer</p>
           </div>
           <div className="icon__container">
