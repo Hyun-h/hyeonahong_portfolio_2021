@@ -19,12 +19,12 @@ function Portfolio({
 }) {
   return (
     <>
-      <div
+      <section
         className={
           lightBg ? "home__portfolio-section" : "home__portfolio-section darkBg"
         }
       >
-        <div className="portfolio__container">
+        <article className="portfolio__container">
           <div
             className="row home__portfolio-row"
             style={{
@@ -71,8 +71,8 @@ function Portfolio({
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </article>
+      </section>
     </>
   );
 }

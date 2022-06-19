@@ -6,23 +6,29 @@ import { Link } from "react-router-dom";
 function About() {
   return (
     <>
-      <div className="about__section">
-        <div className="about__wrapper">
+      <section className="about__section">
+        <article className="about__wrapper">
           <div className="about__img">
             <img src="./img/profile.jpeg" alt="캐리커쳐" />
           </div>
           <div className="about__text__container">
             <p>
-              안녕하세요! 제 이름은 <span>홍현아</span>입니다. 저는
-              서울여자대학교를 졸업하고 2021년 6월부터 11월까지 노원
-              그린컴퓨터아카데미에서 프론트엔드 개발 양성과정을 수료하였습니다.
-              이 과정에서 <span>설계와 개발, 유지보수</span>에 대해 배웠습니다.
-              <br />
-              <br />
-              프론트엔드 과정을 수료하기 전에는 서비스직에서 일을 했었습니다.
-              부서 간의 조율이 어려웠다는 개발자의 말에 프론트엔드에 관심을 갖고
-              공부하게 되었습니다. 사람을 많이 상대한 경력이 개발 업무에 도움이
-              될 것입니다.
+              안녕하세요! <em>불편함을 개선하기 좋아하는</em> 프론트엔드 홍현아
+              입니다.
+            </p>
+            <p>
+              개발하기 전 고객과 <em>소통하고 클레임을 해결</em>
+              하는 게 좋아 서비스직에서 근무를 하였습니다. 코로나를 겪으면서
+              서비스 제공의 패러다임이 바뀌는 걸 경험하고 개발 공부를
+              시작하였습니다. 고객과 화면단에서 제일 처음 만나는 프론트엔드에
+              관심을 갖게 되었고 현재까지 이어졌습니다.
+            </p>
+            <p>
+              고객의 사용경험을 개선하고 더 나은 서비스를 제공하는 데 고민을
+              하고, 효율적인 코드를 짜서 가독성을 높이고, 재활용 가능한 코드를
+              추려 생산성을 높이는 데 관심이 많습니다. 이 과정에서 혼자
+              해결하기보다는 동료와 머리를 맡대고 토론하고 해결점을 찾아가는
+              과정이 저에게 큰 힘이 됩니다.
             </p>
           </div>
           <div className="about__btn">
@@ -32,8 +38,8 @@ function About() {
               </Button>
             </Link>
           </div>
-        </div>
-      </div>
+        </article>
+      </section>
     </>
   );
 }

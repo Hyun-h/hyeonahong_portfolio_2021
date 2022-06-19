@@ -33,8 +33,9 @@
   line-height: 24px;
 }
 
-.about__text__container span {
+.about__text__container em {
   font-family: "NEXON Lv2 Gothic Bold";
+  font-style: normal;
 }
 
 @media screen and (max-width: 768px) {

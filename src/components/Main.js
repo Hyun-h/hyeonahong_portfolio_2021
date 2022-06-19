@@ -7,8 +7,8 @@ import { IconContext } from "react-icons/lib";
 function Main() {
   return (
     <IconContext.Provider value={{ color: "#fff", size: 40 }}>
-      <div className="main__section">
-        <div className="main__wrapper">
+      <section className="main__section">
+        <article className="main__wrapper">
           <div className="text__container">
             <span>Hi, I'm</span>
             <h1 className="main__heading">Hyeona Hong</h1>
@@ -37,8 +37,8 @@ function Main() {
               <RiKakaoTalkFill />
             </a>
           </div>
-        </div>
-      </div>
+        </article>
+      </section>
     </IconContext.Provider>
   );
 }

@@ -32,8 +32,8 @@ export const Contact = () => {
   };
 
   return (
-    <div className="contact__section">
-      <div className="contect__wrapper">
+    <section className="contact__section">
+      <article className="contect__wrapper">
         <div className="contect__text">
           <h1>Contect</h1>
           <p>저에게 메일을 보내실 수 있습니다.</p>
@@ -78,8 +78,8 @@ export const Contact = () => {
             </li>
           </ul>
         </form>
-      </div>
-    </div>
+      </article>
+    </section>
   );
 };
 
